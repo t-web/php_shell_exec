@@ -1,0 +1,41 @@
+php_exec: several methods to run external program in php
+========================================================
+
+Several methods to run external program in PHP
+
+Snippets
+========
+
+$stdout = shell_exec($cmd);
+
+$last = exec($cmd, $stdout_lines, $status);
+
+ob_start();
+$last = system($cmd, $status);
+$stdout = ob_get_clean();
+
+ob_start();
+passthru($cmd, $status)
+$stdout = ob_get_clean();
+
+Reference
+=========
+
+http://php.net/popen
+http://php.net/pclose
+
+http://php.net/proc_open
+http://php.net/proc_close
+http://php.net/proc_nice
+http://php.net/proc_terminate
+http://php.net/proc_get_status
+
+http://php.net/exec
+http://php.net/system
+http://php.net/passthru
+http://php.net/shell_exec
+
+http://php.net/escapeshellcmd
+http://php.net/escapeshellarg
+
+http://php.net/manual/en/language.operators.execution.php
