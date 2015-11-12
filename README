@@ -1,5 +1,5 @@
-php_exec: several methods to run external program in php
-========================================================
+php_shell_exec: several methods to run external program in php
+==============================================================
 
 Several methods to run external program in PHP
 
