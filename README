@@ -39,3 +39,6 @@ http://php.net/escapeshellcmd
 http://php.net/escapeshellarg
 
 http://php.net/manual/en/language.operators.execution.php
+
+Program execution Functions
+http://php.net/manual/en/ref.exec.php
